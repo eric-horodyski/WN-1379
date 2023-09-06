@@ -5,8 +5,11 @@ const config: CapacitorConfig = {
   appName: 'WN-1379',
   webDir: 'www',
   server: {
-    androidScheme: 'https'
-  }
+    androidScheme: 'https',
+  },
+  plugins: {
+    CapacitorHttp: { enabled: true },
+  },
 };
 
 export default config;
