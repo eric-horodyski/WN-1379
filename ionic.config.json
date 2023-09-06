@@ -1,0 +1,7 @@
+{
+  "name": "WN-1379",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
